@@ -1,4 +1,4 @@
-/* .container-fluid {
+.container-fluid {
     padding: 1rem 3rem;
 
 }
@@ -12,7 +12,7 @@
 
 
 
-.navbar li a,
+.navbar 
 .navbar-brand {
     color: rgb(2, 2, 2);
     text-decoration: none;
@@ -21,21 +21,31 @@
     padding-left: 30px;
 }
 
-.nav-item {
+
+.logo {
+    max-width: 80px;
+}
+
+.Option {
+    color:black;
     border: 1px solid rgb(31, 29, 29);
     margin-left: 2.5rem;
 }
 
-.nav-item:hover {
+.Option:hover {
     transform: scale(1.3);
     transition: 0.3s;
     color: rgb(0, 0, 0);
     background-color: rgb(247, 229, 196);
     border: none;
-} */
+}
 
-.logo {
-    max-width: 80px;
+.ActiveOption {
+    transform: scale(1.3);
+    transition: 0.3s;
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 229, 196);
+    border: none;
 }
 
 

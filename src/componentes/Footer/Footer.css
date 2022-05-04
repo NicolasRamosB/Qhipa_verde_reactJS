@@ -1,0 +1,130 @@
+
+
+.footer {
+    background: #a9d49f;
+    display: flex;
+    min-height: 70px;
+    width: 100%;
+    clear: both;
+    margin-top: 0px;
+    padding-top: 0px;
+    left: 0;
+    bottom: 0;
+    overflow: visible;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #5e4207;
+    transition: .5s;
+    z-index: 100;
+}
+
+.footer ul li a:hover {
+    color: white;
+    z-index: 100;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .footer .title-footer {
+        font-size: 150%;
+        font-weight: bold;
+        color: #3f2c05;
+    }
+
+    .footer ul li a {
+        font-size: 130%;
+    }
+
+    .footer .fa-copyright {
+        font-size: 80%;
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .footer {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+        padding-top: 40px;
+    }
+
+    .footer .title-footer {
+        font-size: 150%;
+        font-weight: bold;
+        color: #3f2c05;
+    }
+
+    .footer ul li a {
+        font-size: 130%;
+    }
+
+    .footer .fa-copyright {
+        font-size: 80%;
+        margin: 10px;
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .footer {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+        padding-top: 40px;
+    }
+
+    .footer .title-footer {
+        font-size: 150%;
+        font-weight: bold;
+        color: #3f2c05;
+    }
+
+    .footer ul li a {
+        font-size: 130%;
+    }
+
+    .footer .fa-copyright {
+        font-size: 80%;
+        margin: 10px;
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .footer {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 40px;
+    }
+
+    .footer .title-footer {
+        font-size: 150%;
+        font-weight: bold;
+        color: #3f2c05;
+    }
+
+    .footer ul li a {
+        font-size: 130%;
+    }
+
+    .footer .fa-copyright {
+        font-size: 80%;
+        margin: 10px;
+        align-self: flex-end;
+    }
+}

@@ -251,5 +251,5 @@ export const getProductsById = (id) => {
 
 const categories = [
     {id: 'Productos', description: 'Productos'},
-    {id: 'Service', description: 'Servicios'},
+    {id: 'Services', description: 'Servicios'},
 ]

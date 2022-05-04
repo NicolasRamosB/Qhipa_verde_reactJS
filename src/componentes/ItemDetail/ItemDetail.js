@@ -1,22 +1,21 @@
-import './ItemDetail.css';
 
 
 
 
-const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
+import './ItemDetail.css'
 
-    
 
+const ItemDetail = ({ id, nombre, img, category, description, precio}) => {
 
     return (
         <article className="CardItem">
             <header className="Header">
                 <h2 className="ItemHeader">
-                    {name}
+                    {nombre}
                 </h2>
             </header>
             <picture>
-                <img src={img} alt={name} className="ItemImg"/>
+                <img src={img} alt={nombre} className="ItemImg"/>
             </picture>
             <section>
                 <p className="Info">
@@ -26,7 +25,7 @@ const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
                     Descripción: {description}
                 </p>
                 <p className="Info">
-                    Precio: {price}
+                    Precio: {precio}
                 </p>
             </section>
         </article>

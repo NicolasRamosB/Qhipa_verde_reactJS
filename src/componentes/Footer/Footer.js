@@ -1,36 +1,33 @@
 import './Footer.css';
 import React from 'react';
+import { Link } from 'react-router-dom'
+
+
+
 export const Footer = () => {
-    return (
-        <>
-        <footer class="footer">
+        
+        return (
+                <>
+                        <footer className="footer">
 
-<ul>
-    <p class="title-footer">Contacto</p>
-    <li><span class="email m-1" style={{color: "#ffffff", fontSize:"130%"}}>✉</span><a
-            href="mailto:qhipaverde@gmail.com" >qhipaverde@gmail.com</a></li>
-    <li><span class="icon-whatsapp m-2 " style={{color: "#ffffff", background:"transparent"}}></span><a
-            href="https://bit.ly/wspqhipaverde" >+51 991 899 907</a></li>
-    <li><span class="icon-instagram m-2" style={{color: "#ffffff", background: "transparent"}}></span><a
-            href="https://www.instagram.com/qhipaverde/?hl=es" >@qhipaverde</a></li>
-    <li><span class="icon-facebook m-2" style={{color: "#ffffff", background: "transparent"}}></span><a
-            href="https://www.facebook.com/qhipaverde">qhipaverde</a></li>
-</ul>
+                                <ul>
+                                        <p className="title-footer">Contacto</p>
+                                        <li><span className="email m-1" style={{ color: "#ffffff", fontSize: "130%" }}>✉</span><a
+                                                href="mailto:qhipaverde@gmail.com" target="_blank" rel="noopener noreferrer">qhipaverde@gmail.com</a></li>
+                                        <li><span className="icon-whatsapp m-2 " style={{ color: "#ffffff", background: "transparent" }}></span><a
+                                                href="https://bit.ly/wspqhipaverde" target="_blank" rel="noopener noreferrer" >+51 991 899 907</a></li>
+                                        <li><span className="icon-instagram m-2" style={{ color: "#ffffff", background: "transparent" }}></span><a
+                                                href="https://www.instagram.com/qhipaverde/?hl=es" target="_blank" rel="noopener noreferrer" >@qhipaverde</a></li>
+                                        <li><span className="icon-facebook m-2" style={{ color: "#ffffff", background: "transparent" }}></span><a
+                                                href="https://www.facebook.com/qhipaverde" target="_blank" rel="noopener noreferrer">qhipaverde</a></li>
+                                </ul>
 
-<ul>
-    <p class="title-footer">Catalogo</p>
-    <li><a href="">Macetas</a></li>
-    <li><a href="">Plantas</a></li>
-    <li><a href="">Productos</a></li>
-    <li><a href="">Diseños y Paisajismo</a></li>
-    <li><a href="">Muebles</a></li>
-</ul>
+                        
 
-<i class="fa fa-copyright" aria-hidden="true">Copyright-2022</i>
+                        <i className="fa fa-copyright" aria-hidden="true">Copyright-2022</i>
 
-</footer>
-        </>
-    )
-
+                </footer>
+                </>
+        )
 }
 
