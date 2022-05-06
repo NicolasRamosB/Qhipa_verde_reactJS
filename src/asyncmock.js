@@ -3,13 +3,14 @@ const products = [
         "id": 1,
         "nombre": "Sustrato premium 3L",
         "precio": 10,
-        "img": '../img/1.png',
+        "img": '../img/productos/Jardinería/SustratoPremium3L/Sustratojfd.jpg',
         "category": "Productos",
         "descripcion": "El sustrato ideal para que tu planta crezca en un ambiente adecuado, húmedo pero con buen drenaje. Elaborado con perlita, vermiculita, arcilla expandida, fibra de coco y humus."
     },
     {
         "id": 2,
         "nombre": "Biol 400ml",
+        "img": '../img/productos/Jardinería/Biol/Presentacionde1L.jpg',
         "precio": 15,
         "category": "Productos",
         "descripcion": "Tu planta no crece como debería hacerlo, se enferma muy rápido. Tenemos la solución perfecta. BIOL: Fertilizante natural elaborado con residuos orgánicos. Incluye indicaciones de uso. Presentación desde 400ml, 1L a más."
@@ -17,6 +18,7 @@ const products = [
     {
         "id": 3,
         "nombre": "Detergente agrícola 400ml",
+        "img": '../img/productos/Jardinería/DetergenteAgrícola/Detergenteagrícola.jpg',
         "precio": 12,
         "oferta": 10,
         "category": "Productos",
@@ -25,6 +27,7 @@ const products = [
     {
         "id": 4,
         "nombre": "Fungicida 400ml",
+        "img": '../img/productos/Jardinería/Fungicida/IMG_9648.jpg',
         "precio": 12,
         "oferta": 10,
         "category": "Productos",
@@ -34,6 +37,7 @@ const products = [
     {
         "id": 5,
         "nombre": "Control pack",
+        "img": '../img/productos/Jardinería/ControlPack/ControlPack.jpg',
         "precio": 36,
         "oferta": 30,
         "category": "Productos",
@@ -42,6 +46,7 @@ const products = [
     {
         "id": 6,
         "nombre": "Herramientas jardinería",
+        "img": '../img/productos/Jardinería/HerramientaJardinería/Herramientas.jpg',
         "precio": 20,
         "category": "Productos",
         "descripcion": "Si bien podemos utilizar lo que tenemos en casa para nuestras plantas, es mejor utilizar las herramientas que están creadas para ellas. Palita, trinche y rastrillo con mango de madera. "
@@ -49,6 +54,7 @@ const products = [
     {
         "id": 7,
         "nombre": "Pack jardinería",
+        "img": '../img/productos/Jardinería/PackJardinería/packjardinería.jpg',
         "precio": 56,
         "category": "Productos",
         "descripcion": "Te gustaría empezar a cuidar tus plantas, este es el pack que no sabías que estabas buscando. Incluye: 3L de sustrato premium, maceta, planta aromática (la que tengamos en stock), palita, trinche y rastrillo."
@@ -56,6 +62,7 @@ const products = [
     {
         "id": 8,
         "nombre": "Semilla",
+        "img": '../img/productos/Jardinería/Semilla/19.png',
         "precio": 9,
         "category": "Productos",
         "descripcion": "No hay mayor satisfacción que ver tus plantas crecer de forma orgánica y cosecharlas. Aprende junto con nosotras a cultivarlas, tenemos a tu disposición las siguientes semillas:",
@@ -77,6 +84,7 @@ const products = [
     {
         "id": 9,
         "nombre": "Hortalizas",
+        "img": '../img/productos/Jardinería/Hortalizas/plantadas.jpg',
         "precio": 9,
         "category": "Productos",
         "descripcion": "Aromatiza o cultiva tus propios alimentos en casa. Nada mejor que verlas crecer para luego cosecharlas, fruto de tu tiempo y dedicación. Come sano, come orgánico al mismo tiempo que ahorras unos cuantos soles. Elige la planta:",
@@ -95,6 +103,7 @@ const products = [
     {
         "id": 10,
         "nombre": "Katari",
+        "img": '../img/productos/Jardinería/Katari/25.jpg',
         "precio": 42,
         "category": "Productos",
         "descripcion": "Te gustaría adornar tu casa con plantas colgantes. Elaboradas con macramé, color único blanco. Se pueden colocar macetas de diámetros de 15cm a 25cm. Las tallas son de acuerdo al largo.",
@@ -104,6 +113,7 @@ const products = [
     {
         "id": 11,
         "nombre": "Katari",
+        "img": '../img/productos/Jardinería/Katari/katari.jpg',
         "precio": 54,
         "category": "Productos",
         "descripcion": "Te gustaría adornar tu casa con plantas colgantes. Elaboradas con macramé, color único blanco. Se pueden colocar macetas de diámetros de 15cm a 25cm. Las tallas son de acuerdo al largo.",
@@ -113,6 +123,7 @@ const products = [
     {
         "id": 12,
         "nombre": "Katari",
+        "img": '../img/productos/Jardinería/Katari/35.jpeg',
         "precio": 65,
         "category": "Productos",
         "descripcion": "Te gustaría adornar tu casa con plantas colgantes. Elaboradas con macramé, color único blanco. Se pueden colocar macetas de diámetros de 15cm a 25cm. Las tallas son de acuerdo al largo.",
@@ -122,6 +133,7 @@ const products = [
     {
         "id": 13,
         "nombre": "Rubic",
+        "img": '../img/productos/Jardinería/Rubic/IMG-6963.jpg',
         "precio": 48,
         "oferta": 45,
         "category": "Productos",
@@ -131,6 +143,7 @@ const products = [
     {
         "id": 14,
         "nombre": "Rubic con pirograbado",
+        "img": '../img/productos/Jardinería/Rubicconpirograbado/IMG-8096.jpg',
         "precio": 54,
         "oferta": 50,
         "category": "Productos",
@@ -140,6 +153,7 @@ const products = [
     {
         "id": 15,
         "nombre": "Florero de madera",
+        "img": '../img/productos/Jardinería/Florero/florero.jpg',
         "precio": 62,
         "oferta": 52,
         "category": "Productos",
@@ -149,6 +163,7 @@ const products = [
     {
         "id": 16,
         "nombre": "Maceta de cemento circular/cubo",
+        "img": '../img/productos/Jardinería/Florero/florero.jpg',
         "precio": 20,
         "category": "Productos",
         "descripcion": "Macetas de cemento de diversos colores elaboradas de forma artesanal. Tamaño: 10x10x10cm",
@@ -157,6 +172,7 @@ const products = [
     {
         "id": 17,
         "nombre": "Maceta de cemento circular/cubo + planta",
+        "img": '../img/productos/Jardinería/MacetaDeCemento/IMG_5736.JPG',
         "precio": 77,
         "category": "Productos",
         "descripcion": "Macetas de cemento de diversos colores elaboradas de forma artesanal + planta suculenta (echeveria spp. u otra disponible de acuerdo a stock). Tamaño: 10x10x10cm",
@@ -165,6 +181,7 @@ const products = [
     {
         "id": 18,
         "nombre": "Maceta Saturno + planta",
+        "img": '../img/productos/Jardinería/MacetaSaturnoPlanta/saturno.jpg',
         "precio": 77,
         "category": "Productos",
         "descripcion": "Macetas de arcilla modelo saturno + planta suculenta (echeveria spp. u otra disponible de acuerdo a stock) Tamaño: 10x10x10cm",
@@ -173,6 +190,7 @@ const products = [
     {
         "id": 19,
         "nombre": "Porta accesorios",
+        "img": '../img/productos/Manejo de residuos/PortaAccesorios/porta.jpg',
         "precio": 35,
         "category": "Productos",
         "descripcion": "Porta accesorios de 4 niveles de 30cm de altura. Cuelga tu mascarillas, lentes, audífonos, collares, pulseras, bandanas, etc."
@@ -180,6 +198,7 @@ const products = [
     {
         "id": 20,
         "nombre": "Vermicompostera",
+        "img": '../img/productos/Manejo de residuos/Vermicompostera/vermi.jpg',
         "precio": 420,
         "category": "Productos",
         "oferta": "Por la compra llévate GRATIS asesoría virtual + manual de uso + garantía de 1 mes del pack de lombrices.",
@@ -188,6 +207,7 @@ const products = [
     {
         "id": 21,
         "nombre": "Juego de muebles",
+        "img": '../img/productos/Muebles/21.jpg',
         "precio": 720,
         "category": "Productos",
         "descripcion": "Mueble de dos asientos con respadar (espesor: 45cm ancho: 100cm alto asiento: 50cm alto total 90cm) Mueble de dos asientos sin respaldar (espesor: 45cm ancho: 100cm alto asiento: 50cm) Incluye cojines de espuma zebra- Color: Natural preservado con aceite de linaza.",
@@ -197,6 +217,7 @@ const products = [
         {
             "id": 22,
             "nombre": "Asesoría virtual en áreas verdes",
+            "img": '../img/servicios/AsesoríaVirtualEnAreasVerdes/AsesoriaVirtual.jpg',
             "precio": 20,
             "category": "Services",
             "descripción": "Agenda tu asesoría con Gladys o Rosa y aprende junto con ellas o como mantener y/o cultivar sus plantas."
@@ -204,6 +225,7 @@ const products = [
         {
             "id": 23,
             "nombre": "Asesoría presencial en áreas verdes",
+            "img": '../img/servicios/AsesoriaPresencialAreas/Gladys.jpeg',
             "precio": 59,
             "category": "Services",
             "descripción": "Agenda tu asesoría con Gladys o Rosa y aprende junto con ellas o como mantener y/o cultivar sus plantas. Precio válido por persona. En caso requiera asesoría para grupo de personas, podemos hacerlo. Escríbenos."
@@ -211,6 +233,7 @@ const products = [
         {
             "id":24,
             "nombre": "Diseño de áreas verdes",
+            "img": '../img/servicios/DiseñoAreasVerdes/diseño.jpg',
             "precio": 50,
             "category": "Services",
             "descripción": "Tienes un espacio donde te gustaría tener plantas pero no sabes cómo ordenar tus ideas, te ayudamos a diseñarlos. Visita sin costo. Costo del diseño desde 50 soles, acorde al metraje."
@@ -218,6 +241,7 @@ const products = [
         {
             "id":25,
             "nombre": "Mantenimiento o instalación de áreas verdes",
+            "img": '../img/servicios/Mantenimientos/mantenimiento.jpg',
             "precio": 270,
             "category": "Services",
             "descripción": "Cotiza con nosotras el mantenimiento o instalación de tu área verde. Visita sin costo, dentro de las zonas de reparto. Costo variable según el proyecto."

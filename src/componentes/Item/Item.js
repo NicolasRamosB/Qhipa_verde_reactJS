@@ -3,7 +3,7 @@ import './Item.css';
 import { Link } from 'react-router-dom'
 
 
-const Item = ({id, nombre, img, precio }) => {
+const Item = ({id, nombre, img, precio}) => {
 
     const handleClick = (e) => {
         e.stopPropagation()
@@ -13,15 +13,18 @@ const Item = ({id, nombre, img, precio }) => {
 
     return (
         <article className="CardContainer" onClick={handleClick}>
+            
             <div className="Card">
+                
                 <div className="CardContent">
+                <h2 className="title">
+                    {nombre}
+                </h2>
                 <div className="img">
                    <img className="icon" src="../img/grapes.PNG" alt="" /> 
                     <img className="productos"  src={img} alt={nombre}/>  
                </div> 
-                <h2 className="title">
-                    {nombre}
-                </h2>
+                
                
                 <p className="CardTitle">
                     Precio: ${precio}

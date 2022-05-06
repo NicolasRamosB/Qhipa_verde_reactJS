@@ -1,15 +1,11 @@
 
 .Card {
-    width: 300px;
-    height: 400px;
+    width: 100%;
     background-color:rgb(247, 229, 196);
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%), 0 -1px 2px 0 rgb(0 0 0 / 10%);
-    margin: 1.6rem 0.8rem 1.6rem 0.8rem;
-    flex-grow: 1;
-    min-height: 100%;
-    position: relative;
-    padding: 1.2rem 0.5rem 0.5rem;
+    margin: 1rem;
+    padding: 1.2rem;
 }
 
 .Card:hover{
@@ -17,12 +13,15 @@
     box-shadow: 5px 13px 31px 3px rgba(5,76,20,0.32);
 }
 
+.title{
+    background-color: rgb(170, 212, 160);
+    font-size: 300%;
+    font-family: "Anaktoria", sans-serif;
+}
+
 .CardContainer {
-    display: -webkit-flex;
     display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    float: left;
+    width: 30%;
     justify-content: space-between;
 }
 
@@ -31,7 +30,9 @@
 }
 
 .CardTitle {
-    font-family: sans-serif;
+    margin:10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
 }
 
 .DetailBtn {
@@ -52,5 +53,5 @@
 }
 
 .productos{
-    width: 100%;
+    width: 80%;
 }
