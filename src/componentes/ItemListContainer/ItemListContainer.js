@@ -3,7 +3,7 @@ import ItemList from '../ItemList/ItemList'
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { getProducts } from '../../asyncmock'
-
+import {Socialbar} from "../Socialbar/Socialbar"
 
 const ItemListContainer = () => {
 
@@ -19,8 +19,12 @@ const ItemListContainer = () => {
 
     return (
         <>
+        <div className="titleItemContainer">
+        <h1 className="titleCategory">{categoryId}</h1>
+        </div>
+        <ItemList  products = {products}/>
+        <Socialbar/>
         
-        <ItemList products = {products}/>
         </>
     )
 }

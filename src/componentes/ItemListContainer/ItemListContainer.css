@@ -1,0 +1,44 @@
+.titleCategory{
+    font-family: "Anaktoria", sans-serif;
+    text-align: center; 
+    background-image: url(/public/img/flore.jpg);
+    background-size: cover;
+    background-position: center;
+    color:rgb(90, 43, 4);
+    padding:5rem;
+    width: 100%;
+}
+
+
+
+.titleItemContainer{
+    
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+   .titleCategory{
+       font-size:200%;
+   }
+}
+@media only screen and (min-width: 600px){
+    .titleCategory{
+        font-size:300%;
+    }
+}
+@media only screen and (min-width: 768px){
+    .titleCategory{
+        font-size:400%;
+    }
+}
+@media only screen and (min-width: 992px){
+    .titleCategory{
+        font-size:500%;
+    }
+} 
+@media only screen and (min-width: 1440px){
+    .titleCategory{
+        font-size:800%;
+    }
+} 

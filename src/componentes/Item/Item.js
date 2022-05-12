@@ -3,7 +3,7 @@ import './Item.css';
 import { Link } from 'react-router-dom'
 
 
-const Item = ({id, nombre, img, precio}) => {
+const Item = ({ id, nombre, img, precio, oferta, ofertaPrecio }) => {
 
     const handleClick = (e) => {
         e.stopPropagation()
@@ -13,42 +13,38 @@ const Item = ({id, nombre, img, precio}) => {
 
     return (
         <article className="CardContainer" onClick={handleClick}>
-            
+
             <div className="Card">
-                
+
                 <div className="CardContent">
-                <h2 className="title">
-                    {nombre}
-                </h2>
-                <div className="img">
-                   <img className="icon" src="../img/grapes.PNG" alt="" /> 
-                    <img className="productos"  src={img} alt={nombre}/>  
-               </div> 
-                
-               
-                <p className="CardTitle">
-                    Precio: ${precio}
-                </p>
-                <Link to={`/detail/${id}`} className='DetailBtn'>Ver detalle</Link>
+                    <h2 className="title">
+                        {nombre}
+                    </h2>
+                    <div className="img">
+                        
+                        <img className="productos" src={img} alt={nombre} />
+
+                        <img className="icono" src="/img/logo/hojas_logo2.png" alt="icono" />
+
+                    </div>
+
+
+                    <p className="CardPrecio">
+                        ${precio}
+                        <span className="ofertaPrecio">{ofertaPrecio}</span>
+
+
+                    </p>
+                    <p className="oferta">{oferta}</p>
+
+
+                    <Link to={`/detail/${id}`} className='DetailBtn'>Ver detalle</Link>
                 </div>
-                </div>
+            </div>
         </article>
     )
 }
 
 export default Item
 
-//    <div className="CardContainer" onClick={handleClick}>
-//         <div className="Card">
-//             <div className="CardContent">
-//                 <div className="img">
-//                     {/* <img className="icon" src="../img/grapes.PNG"/> */}
-//                     {/* <img className="wine" width="150" height="250" src={img} alt={nombre}/> */}
-//                 </div>
-//                 <h4 className="CardTitle">{nombre}</h4>
-//                 <p>${precio}</p>
-//                 <Link to={`detail/${id}`} className="DetailBtn">Ver detalle</Link>
-//             </div>
-//         </div>
-//     </div>
-        
+

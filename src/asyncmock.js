@@ -20,7 +20,7 @@ const products = [
         "nombre": "Detergente agrícola 400ml",
         "img": '../img/productos/Jardinería/DetergenteAgrícola/Detergenteagrícola.jpg',
         "precio": 12,
-        "oferta": 10,
+        "ofertaPrecio": "/ $10",
         "category": "Productos",
         "descripcion": "Tu planta presenta insectos que no permite que nuevas hojas crezcan porque se la comen. No te preocupes que tenemos la solución ideal. DETERGENTE AGRICOLA: Previene y elimina los insectos. No es tóxico, hecho con almidón. Incluye indicaciones de uso."
     },
@@ -29,7 +29,7 @@ const products = [
         "nombre": "Fungicida 400ml",
         "img": '../img/productos/Jardinería/Fungicida/IMG_9648.jpg',
         "precio": 12,
-        "oferta": 10,
+        "ofertaPrecio": "/ $10",
         "category": "Productos",
         "descripcion": "Tus plantas tienen manchas en las hojas, marrones o puntos. Posiblemente tenga hongos. Utiliza nuestro FUNGICIDA que los previene y elimina hongos. ",
         "extra": "No estás segura si tiene hongos, escríbenos envianos una foto a nuestro whatsapp."
@@ -39,7 +39,7 @@ const products = [
         "nombre": "Control pack",
         "img": '../img/productos/Jardinería/ControlPack/ControlPack.jpg',
         "precio": 36,
-        "oferta": 30,
+        "ofertaPrecio": "/ $30",
         "category": "Productos",
         "descripcion": "¡El pack que tus plantas estaban esperando! BIOL: Fertilizante natural elaborado con residuos orgánicos. DETERGENTE AGRICOLA: Previene y elimina los insectos. No es tóxico, hecho con almidón. FUNGICIDA: Previene y elimina hongos. Presentación en botellas de 400ml. Incluye una asesoría virtual. "
     },
@@ -67,18 +67,19 @@ const products = [
         "category": "Productos",
         "descripcion": "No hay mayor satisfacción que ver tus plantas crecer de forma orgánica y cosecharlas. Aprende junto con nosotras a cultivarlas, tenemos a tu disposición las siguientes semillas:",
         "variedad": {
-            "rabanito": "Rabanito", 
-            "huacatay": "Huacatay", 
-            "espinaca": "Espinaca", 
-            "acelga": "Acelga", 
-            "tomate": "Tomate", 
-            "albahaca": "Albahaca", 
-            "beterraga": "Beterraga", 
-            "lechuga": "Lechuga", 
-            "colmorada": "Col morada", 
-            "cilantro": "Cilantro", 
-            "Perejil": "Perejil", 
-            "Apio": "Apio"},
+            "rabanito": "Rabanito",
+            "huacatay": "Huacatay",
+            "espinaca": "Espinaca",
+            "acelga": "Acelga",
+            "tomate": "Tomate",
+            "albahaca": "Albahaca",
+            "beterraga": "Beterraga",
+            "lechuga": "Lechuga",
+            "colmorada": "Col morada",
+            "cilantro": "Cilantro",
+            "Perejil": "Perejil",
+            "Apio": "Apio"
+        },
         "promo": "Por la compra de 3 semillas a más, llévate GRATIS CALENDARIO DE SIEMBRA y ASESORÍA VIRTUAL para que puedas tener éxito desde tu primera siembra."
     },
     {
@@ -88,21 +89,22 @@ const products = [
         "precio": 9,
         "category": "Productos",
         "descripcion": "Aromatiza o cultiva tus propios alimentos en casa. Nada mejor que verlas crecer para luego cosecharlas, fruto de tu tiempo y dedicación. Come sano, come orgánico al mismo tiempo que ahorras unos cuantos soles. Elige la planta:",
-        "variedad": 
-            { "manzanilla": "Manzanilla",
-                "lavanda": "Lavanda", 
-                "huacatay": "Huacatay", 
-                "oregano": "Orégano", 
-                "muña": "Muña", 
-                "hierbabuena": "Hierba Buena", 
-                "menta": "Menta", 
-                "romero": "Romero"
-            },
-        "promo": "Por la compra de 3 plantas, llévate GRATIS ASESORÍA VIRTUAL para que puedas ubicarlas, regarlas y mantenerlas de forma adecuada." 
+        "variedad":
+        {
+            "manzanilla": "Manzanilla",
+            "lavanda": "Lavanda",
+            "huacatay": "Huacatay",
+            "oregano": "Orégano",
+            "muña": "Muña",
+            "hierbabuena": "Hierba Buena",
+            "menta": "Menta",
+            "romero": "Romero"
+        },
+        "promo": "Por la compra de 3 plantas, llévate GRATIS ASESORÍA VIRTUAL para que puedas ubicarlas, regarlas y mantenerlas de forma adecuada."
     },
     {
         "id": 10,
-        "nombre": "Katari",
+        "nombre": "Katari S (25CM)",
         "img": '../img/productos/Jardinería/Katari/25.jpg',
         "precio": 42,
         "category": "Productos",
@@ -112,30 +114,30 @@ const products = [
     },
     {
         "id": 11,
-        "nombre": "Katari",
+        "nombre": "Katari M (30CM)",
         "img": '../img/productos/Jardinería/Katari/katari.jpg',
         "precio": 54,
         "category": "Productos",
         "descripcion": "Te gustaría adornar tu casa con plantas colgantes. Elaboradas con macramé, color único blanco. Se pueden colocar macetas de diámetros de 15cm a 25cm. Las tallas son de acuerdo al largo.",
         "talle": "M (30CM)",
-        "extra":"¿Deseas instalación de tu KATARI? Podemos ayudarte, continuemos conversando por whatsapp."
+        "extra": "¿Deseas instalación de tu KATARI? Podemos ayudarte, continuemos conversando por whatsapp."
     },
     {
         "id": 12,
-        "nombre": "Katari",
+        "nombre": "Katari L (35CM)",
         "img": '../img/productos/Jardinería/Katari/35.jpeg',
         "precio": 65,
         "category": "Productos",
         "descripcion": "Te gustaría adornar tu casa con plantas colgantes. Elaboradas con macramé, color único blanco. Se pueden colocar macetas de diámetros de 15cm a 25cm. Las tallas son de acuerdo al largo.",
         "talle": "L (35CM)",
-        "extra":"¿Deseas instalación de tu KATARI? Podemos ayudarte, continuemos conversando por whatsapp."
+        "extra": "¿Deseas instalación de tu KATARI? Podemos ayudarte, continuemos conversando por whatsapp."
     },
     {
         "id": 13,
         "nombre": "Rubic",
         "img": '../img/productos/Jardinería/Rubic/IMG-6963.jpg',
         "precio": 48,
-        "oferta": 45,
+        "ofertaPrecio": "/ $45",
         "category": "Productos",
         "descripcion": "Maceta de 10x10x10cm preservada con aceite de linaza. Ideal para tu mesa de centro, comedor, escritorio o ventana. Incluye suculenta echeveria spp.",
         "extra": "Si lo deseas como regalo corporativo o recuerdo, continuemos conversando para brindarte nuestros precios especiales acorde a la cantidad que necesitas."
@@ -145,7 +147,7 @@ const products = [
         "nombre": "Rubic con pirograbado",
         "img": '../img/productos/Jardinería/Rubicconpirograbado/IMG-8096.jpg',
         "precio": 54,
-        "oferta": 50,
+        "ofertaPrecio": "/ $50",
         "category": "Productos",
         "descripcion": "Maceta de 10x10x10cm preservada con aceite de linaza. Ideal para tu mesa de centro, comedor, escritorio o ventana. Incluye suculenta echeveria spp. y pirograbado con el nombre que nos indiques.",
         "extra": "Si lo deseas como regalo corporativo o recuerdo, continuemos conversando para brindarte nuestros precios especiales acorde a la cantidad que necesitas."
@@ -155,7 +157,7 @@ const products = [
         "nombre": "Florero de madera",
         "img": '../img/productos/Jardinería/Florero/florero.jpg',
         "precio": 62,
-        "oferta": 52,
+        "ofertaPrecio": "/ $52",
         "category": "Productos",
         "descripcion": "Florero de 5x5x15cm preservada con aceite de linaza. Ideal para tu mesa de centro, comedor, escritorio o ventana. Incluye florero + pipeta de vidrio + clavel y lluvia (duración flores 10 días aprox.).",
         "extra": "Si lo deseas como regalo corporativo o recuerdo, continuemos conversando para brindarte nuestros precios especiales acorde a la cantidad que necesitas."
@@ -185,7 +187,7 @@ const products = [
         "precio": 77,
         "category": "Productos",
         "descripcion": "Macetas de arcilla modelo saturno + planta suculenta (echeveria spp. u otra disponible de acuerdo a stock) Tamaño: 10x10x10cm",
-        "oferta":"Por compras mayores o iguales a 5 unidades, precio especial."
+        "oferta": "Por compras mayores o iguales a 5 unidades, precio especial."
     },
     {
         "id": 19,
@@ -214,43 +216,43 @@ const products = [
         "extra": "Estás buscando un mueble similar o mayor cantidad, continuemos conversando por whatsapp."
     },
 
-        {
-            "id": 22,
-            "nombre": "Asesoría virtual en áreas verdes",
-            "img": '../img/servicios/AsesoríaVirtualEnAreasVerdes/AsesoriaVirtual.jpg',
-            "precio": 20,
-            "category": "Services",
-            "descripción": "Agenda tu asesoría con Gladys o Rosa y aprende junto con ellas o como mantener y/o cultivar sus plantas."
-        },
-        {
-            "id": 23,
-            "nombre": "Asesoría presencial en áreas verdes",
-            "img": '../img/servicios/AsesoriaPresencialAreas/Gladys.jpeg',
-            "precio": 59,
-            "category": "Services",
-            "descripción": "Agenda tu asesoría con Gladys o Rosa y aprende junto con ellas o como mantener y/o cultivar sus plantas. Precio válido por persona. En caso requiera asesoría para grupo de personas, podemos hacerlo. Escríbenos."
-        },
-        {
-            "id":24,
-            "nombre": "Diseño de áreas verdes",
-            "img": '../img/servicios/DiseñoAreasVerdes/diseño.jpg',
-            "precio": 50,
-            "category": "Services",
-            "descripción": "Tienes un espacio donde te gustaría tener plantas pero no sabes cómo ordenar tus ideas, te ayudamos a diseñarlos. Visita sin costo. Costo del diseño desde 50 soles, acorde al metraje."
-        },
-        {
-            "id":25,
-            "nombre": "Mantenimiento o instalación de áreas verdes",
-            "img": '../img/servicios/Mantenimientos/mantenimiento.jpg',
-            "precio": 270,
-            "category": "Services",
-            "descripción": "Cotiza con nosotras el mantenimiento o instalación de tu área verde. Visita sin costo, dentro de las zonas de reparto. Costo variable según el proyecto."
-        }
+    {
+        "id": 22,
+        "nombre": "Asesoría virtual en áreas verdes",
+        "img": '../img/servicios/AsesoríaVirtualEnAreasVerdes/AsesoriaVirtual.jpg',
+        "precio": 20,
+        "category": "Servicios",
+        "descripcion": "Agenda tu asesoría con Gladys o Rosa y aprende junto con ellas o como mantener y/o cultivar sus plantas."
+    },
+    {
+        "id": 23,
+        "nombre": "Asesoría presencial en áreas verdes",
+        "img": '../img/servicios/AsesoriaPresencialAreas/Gladys.jpeg',
+        "precio": 59,
+        "category": "Servicios",
+        "descripcion": "Agenda tu asesoría con Gladys o Rosa y aprende junto con ellas o como mantener y/o cultivar sus plantas. Precio válido por persona. En caso requiera asesoría para grupo de personas, podemos hacerlo. Escríbenos."
+    },
+    {
+        "id": 24,
+        "nombre": "Diseño de áreas verdes",
+        "img": '../img/servicios/DiseñoAreasVerdes/diseño.jpg',
+        "precio": 50,
+        "category": "Servicios",
+        "descripcion": "Tienes un espacio donde te gustaría tener plantas pero no sabes cómo ordenar tus ideas, te ayudamos a diseñarlos. Visita sin costo. Costo del diseño desde 50 soles, acorde al metraje."
+    },
+    {
+        "id": 25,
+        "nombre": "Mantenimiento o instalación de áreas verdes",
+        "img": '../img/servicios/Mantenimientos/mantenimiento.jpg',
+        "precio": 270,
+        "category": "Servicios",
+        "descripcion": "Cotiza con nosotras el mantenimiento o instalación de tu área verde. Visita sin costo, dentro de las zonas de reparto. Costo variable según el proyecto."
+    }
 
 ]
 
 export const getCategories = () => {
-    return new Promise (resolve => {
+    return new Promise(resolve => {
         setTimeout(() => {
             resolve(categories)
         }, 100)
@@ -258,7 +260,7 @@ export const getCategories = () => {
 }
 
 export const getProducts = (categoryId) => {
-    return new Promise (resolve => {
+    return new Promise(resolve => {
         setTimeout(() => {
             resolve(categoryId ? products.filter(prod => prod.category === categoryId) : products)
         }, 100)
@@ -266,14 +268,14 @@ export const getProducts = (categoryId) => {
 }
 
 export const getProductsById = (id) => {
-    return new Promise (resolve => {
+    return new Promise(resolve => {
         setTimeout(() => {
-            resolve(products.find(prod => prod.id === id))
+            resolve(products.find(prod => prod.id === parseInt(id)))
         }, 100)
     })
 }
 
 const categories = [
-    {id: 'Productos', description: 'Productos'},
-    {id: 'Services', description: 'Servicios'},
+    { id: 'Productos', description: 'Productos' },
+    { id: 'Servicios', description: 'Servicios' },
 ]

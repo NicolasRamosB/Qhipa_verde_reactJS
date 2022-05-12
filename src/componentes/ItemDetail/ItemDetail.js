@@ -5,29 +5,34 @@
 import './ItemDetail.css'
 
 
-const ItemDetail = ({ id, nombre, img, category, description, precio}) => {
+const ItemDetail = ({ id, nombre, img, category, descripcion, precio }) => {
 
     return (
+
         <article className="CardItem">
-            <header className="Header">
-                <h2 className="ItemHeader">
-                    {nombre}
-                </h2>
-            </header>
-            <picture>
-                <img src={img} alt={nombre} className="ItemImg"/>
-            </picture>
-            <section>
-                <p className="Info">
-                    Categoria: {category}
-                </p>
-                <p className="Info">
-                    Descripción: {description}
-                </p>
-                <p className="Info">
-                    Precio: {precio}
-                </p>
-            </section>
+            <div className="BgDetail">
+
+                <header>
+                    <h2 className="ItemHeaderDetail">
+                        {nombre}
+                    </h2>
+                </header>
+
+                <main className="MainDetail">
+                    <img src={img} alt={nombre} className="ItemImgDetail" />
+                    <div className="InfoDetailContainer">
+                        <p className="InfoDetail">
+                          {category}: {nombre}
+                        </p>
+                        <p className="InfoDetail">
+                             {descripcion}
+                        </p>
+                        <p className="InfoDetail" id="Precio" >
+                            Precio: ${precio}
+                        </p>
+                    </div>
+                </main>
+            </div>
         </article>
     )
 }

@@ -19,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/category/:categoryId" element={<ItemListContainer />} />
+          
           <Route path='/detail/:productId' element={<ItemDetailContainer />} />
           <Route path='*' element={<NotFound />} />
         </Routes>

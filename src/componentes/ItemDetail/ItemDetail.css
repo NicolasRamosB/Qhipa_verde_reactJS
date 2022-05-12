@@ -1,0 +1,175 @@
+
+
+
+.CardItem {
+    background-image: url(/public/img/flore.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.BgDetail {
+    text-shadow: 1px 1px 5px rgba(2, 2, 2, 0.432);
+    width: 90%;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background: rgba(245, 242, 228, 0.295);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.ItemHeaderDetail {
+    margin: 50px;
+    text-align: center;
+    font-family: "Anaktoria";
+    color: rgb(245, 242, 228);
+
+}
+
+
+.ItemImgDetail {
+    border: 20px solid rgba(0, 0, 0, 0.616);
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.425);
+}
+
+
+.MainDetail {
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#Precio{
+    background-color:rgba(28, 80, 23, 0.425);
+    text-align: center;
+    color:rgb(255, 253, 253);
+}
+
+.InfoDetailContainer {
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.425);
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: rgb(169, 212, 159);
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .ItemHeaderDetail {
+        font-size: 200%
+    }
+
+    .MainDetail {
+        flex-direction: column;
+    }
+
+    .ItemImgDetail {
+        width: 80%;
+    }
+
+    .InfoDetailContainer {
+        margin: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+
+    .ItemHeaderDetail {
+        font-size: 200%;
+    }
+
+    .MainDetail {
+        flex-direction: column;
+    }
+
+    .ItemImgDetail {
+        width: 70%;
+    }
+
+    .InfoDetailContainer {
+        margin: 40px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .ItemHeaderDetail {
+        font-size: 300%;
+    }
+
+    .MainDetail {
+        flex-direction: row;
+    }
+
+    .ItemImgDetail {
+        margin: 20px;
+        width: 40%;
+    }
+
+   
+}
+
+@media only screen and (min-width: 992px) {
+
+    .ItemHeaderDetail {
+        font-size: 300%;
+    }
+
+    .MainDetail {
+        width: 80%;
+    }
+
+    .ItemImgDetail {
+        margin: 20px;
+        width: 50%;
+    }
+
+    .InfoDetailContainer {
+        font-size: 170%;
+        margin: 20px;
+    }
+
+   
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .ItemHeaderDetail {
+        font-size: 500%;
+    }
+
+    .MainDetail {
+        width: 70%;
+        margin-bottom: 100px;
+    }
+
+    .ItemImgDetail {
+        margin: 20px;
+        width: 50%;
+    }
+
+    .InfoDetailContainer {
+        
+        margin: 20px;
+    }
+
+    .InfoDetail{
+        font-size:100%;
+    }
+
+}

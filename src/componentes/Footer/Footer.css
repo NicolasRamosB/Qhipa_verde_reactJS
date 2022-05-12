@@ -1,6 +1,7 @@
 
 
 .footer {
+    padding-bottom: 50px;
     background: #a9d49f;
     display: flex;
     min-height: 70px;
@@ -24,6 +25,8 @@
     color: white;
     z-index: 100;
 }
+
+
 
 @media only screen and (max-width: 600px) {
     .footer {
@@ -127,4 +130,5 @@
         margin: 10px;
         align-self: flex-end;
     }
+    
 }

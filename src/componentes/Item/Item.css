@@ -1,37 +1,56 @@
-
 .Card {
-    width: 100%;
-    background-color:rgb(247, 229, 196);
+
+    border: 1px solid rgb(165, 165, 165);
+    background-color: rgb(247, 229, 196);
     border-radius: 2px;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%), 0 -1px 2px 0 rgb(0 0 0 / 10%);
-    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(109, 108, 108, 0.541);
     padding: 1.2rem;
 }
 
-.Card:hover{
-    -webkit-box-shadow: 5px 13px 31px 3px rgba(5, 76, 20, 0.32); 
-    box-shadow: 5px 13px 31px 3px rgba(5,76,20,0.32);
+.Card:hover {
+    -webkit-box-shadow: 5px 13px 31px 3px rgba(5, 76, 20, 0.32);
+    box-shadow: 5px 13px 31px 3px rgba(5, 76, 20, 0.32);
 }
 
-.title{
+.title {
     background-color: rgb(170, 212, 160);
-    font-size: 300%;
-    font-family: "Anaktoria", sans-serif;
+    border-radius: 5px;
+    padding: 1rem;
+    font-weight: lighter;
+    color: rgb(36, 87, 26);
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .CardContainer {
+    margin-top: 100px;
     display: flex;
-    width: 30%;
-    justify-content: space-between;
+    align-self: stretch;
+    justify-content: center;
+    align-items: stretch;
+    
+    
 }
 
 .CardContent {
     text-align: center;
+    
+    
 }
 
-.CardTitle {
-    margin:10px;
-    font-family: 'Open Sans', sans-serif;
+.icono{
+    margin-bottom: -30px;
+    width: 30%;
+}
+
+.CardPrecio {
+    margin: 30px;
+    border-radius: 5px;
+    color: rgb(36, 87, 26);
+    background-color: rgb(170, 212, 160);
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 200%;
 }
 
@@ -39,19 +58,77 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 48px;
-    width: 200px;
+
     background-color: #a9d49f;
     border: none;
     border-radius: 4px;
     padding: 13px;
     cursor: pointer;
-    color: azure;
+    color: rgb(36, 87, 26);
+
 }
 
 .DetailBtn:hover {
-    color:azure;
+    color: azure;
 }
 
-.productos{
-    width: 80%;
+.productos {
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.ofertaPrecio {
+    margin-left: 10px;
+    font-size: 80%;
+}
+
+.oferta {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: rgb(110, 110, 110);
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Card {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .Card {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .Card {
+        width: 90%;
+        
+    }
+    .CardContainer{
+        width: 40%;
+        
+    }
+    .productos{
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .Card {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .Card {
+        width: 90%;
+    }
+
+    .CardContainer{
+        width: 30%;
+    }
 }

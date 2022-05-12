@@ -5,12 +5,14 @@ import React from 'react';
 
 
 export const Footer = () => {
-        
+
         return (
                 <>
                         <footer className="footer">
 
+
                                 <ul>
+
                                         <p className="title-footer">Contacto</p>
                                         <li><span className="email m-1" style={{ color: "#ffffff", fontSize: "130%" }}>✉</span><a
                                                 href="mailto:qhipaverde@gmail.com" target="_blank" rel="noopener noreferrer">qhipaverde@gmail.com</a></li>
@@ -22,11 +24,11 @@ export const Footer = () => {
                                                 href="https://www.facebook.com/qhipaverde" target="_blank" rel="noopener noreferrer">qhipaverde</a></li>
                                 </ul>
 
-                        
+                             
 
-                        <i className="fa fa-copyright" aria-hidden="true">Copyright-2022</i>
+                                <i className="fa fa-copyright" aria-hidden="true">Copyright-2022</i>
 
-                </footer>
+                        </footer>
                 </>
         )
 }

@@ -17,50 +17,35 @@ export const Navbar = () => {
   }, [])
 
   return (
-   
+
+
     <nav className="navbar navbar-expand-lg navbar-light sticky-top pt-0 pb-0 ">
       <div className="container-fluid">
-      <Link to='/'>
-        <div className="navbar-brand">
-      <img src="../img/logo/Q_FB.png" className="logo " alt="Q_FB" />
-      </div>
-  </Link>
-        
-  <ul className="navbar-nav justify-content-end w-100">
-          {categories.map(categories => <NavLink key={categories.id} to={`/category/${categories.id}`}
-           className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>{categories.description}</NavLink>)}
-           </ul>
-        
+        <Link to='/'>
+          <div className="navbar-brand">
+            <img src="../img/logo/Q_FB.png" className="logo " alt="Q_FB" />
+          </div>
+        </Link>
+
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <ul className="navbar-nav justify-content-end w-100">
+            {categories.map(categories => <NavLink key={categories.id} to={`/category/${categories.id}`}
+              className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>{categories.description}</NavLink>)}
+          </ul>
         </div>
+      </div>
     </nav>
 
-    //   <nav className="NavBar" >
-    //   <Link to='/'>
-    //       <h3>Ecommerce</h3>
-    //   </Link>
-    //   <div className="Categories">
-    //     { categories.map(cat => <NavLink key={cat.id} to={`/category/${cat.id}`}
-    //       className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}
-    //     >{cat.description}</NavLink>)}
-    //   </div>
-    // </nav>
+    
 
- 
 
 
   )
 }
 
 
-
-//  <ul className="navbar-nav justify-content-end w-100">
-//   <li className="nav-item">
-//     <a className="nav-link" href="html/nosotras.html">Nosotras</a>
-//   </li>
-//   <li className="nav-item">
-//     <a className="nav-link" href="html/productos.html">Productos</a>
-//   </li>
-//   <li className="nav-item">
-//     <a className="nav-link" href="html/diseños.html">Diseños</a>
-//   </li>
-// </ul>  

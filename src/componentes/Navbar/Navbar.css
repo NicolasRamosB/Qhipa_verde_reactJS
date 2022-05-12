@@ -5,6 +5,7 @@
 
 .navbar {
     -webkit-backdrop-filter: blur(10px);
+
     backdrop-filter: blur(10px);
     background: linear-gradient(rgba(109, 177, 90, 0.507), rgb(245, 242, 228));
     padding: 20px;
@@ -12,8 +13,10 @@
 
 
 
-.navbar 
-.navbar-brand {
+
+
+
+.navbar .navbar-brand {
     color: rgb(2, 2, 2);
     text-decoration: none;
     font-style: none;
@@ -24,13 +27,17 @@
 
 .logo {
     max-width: 80px;
+
 }
 
 .Option {
-    color:rgb(0, 0, 0);
-    border: 1px solid rgb(172, 172, 172);
-    margin-left: 2.5rem;
-    padding:.8rem;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background: rgba(46, 77, 45, 0.589);
+    border: 2px solid rgb(255, 255, 255);
+    
+    padding: .8rem;
     transition: 0.3s;
 }
 
@@ -42,23 +49,44 @@
 }
 
 .ActiveOption {
+    text-align: center;
     transform: scale(1.2);
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     border: 1px solid rgb(172, 172, 172);
-    margin-left: 2.5rem;
-    padding:.8rem;
+    
+    padding: .8rem;
     background-color: rgb(247, 229, 196);
     border: none;
     text-decoration: none;
 }
 
-.ActiveOption:hover{
-    color:rgb(0, 0, 0);
-} 
+.ActiveOption:hover {
+    color: rgb(0, 0, 0);
+}
 
 
 
+@media only screen and (max-width: 992px) {
+    .Option{
+        margin-top: 20px;
+        
+    }
+    .ActiveOption {
+        margin-top: 20px;
+        font-weight: bold;
+       
+    }
+}
 
 
 
-
+@media only screen and (min-width: 992px) {
+    .Option{
+        
+        margin-left: 2.5rem;
+    }
+    .ActiveOption {
+        font-weight: bold;
+        margin-left: 2.5rem;
+    }
+}
