@@ -165,7 +165,7 @@ const products = [
     {
         "id": 16,
         "nombre": "Maceta de cemento circular/cubo",
-        "img": '../img/productos/Jardinería/Florero/florero.jpg',
+        "img": '../img/productos/Jardinería/MacetaDeCemento/IMG_5736.JPG',
         "precio": 20,
         "category": "Productos",
         "descripcion": "Macetas de cemento de diversos colores elaboradas de forma artesanal. Tamaño: 10x10x10cm",
@@ -174,7 +174,7 @@ const products = [
     {
         "id": 17,
         "nombre": "Maceta de cemento circular/cubo + planta",
-        "img": '../img/productos/Jardinería/MacetaDeCemento/IMG_5736.JPG',
+        "img": '../img/productos/Jardinería/MacetaDeCementoPlanta/macetasucuplanta.jpeg',
         "precio": 77,
         "category": "Productos",
         "descripcion": "Macetas de cemento de diversos colores elaboradas de forma artesanal + planta suculenta (echeveria spp. u otra disponible de acuerdo a stock). Tamaño: 10x10x10cm",
