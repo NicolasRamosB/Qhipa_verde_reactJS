@@ -14,9 +14,9 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basenama="process.env.PUBLIC_URL">
         <Navbar/>
-        <Routes>
+        <Routes >
           <Route path="/" element={<Index />} />
           <Route path="/category/:categoryId" element={<ItemListContainer />} />
           
