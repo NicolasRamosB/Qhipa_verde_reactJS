@@ -26,6 +26,20 @@
     z-index: 100;
 }
 
+.parrafooter{
+    text-align: center;
+    font-size: 150%;
+    font-family: "Anaktoria";
+    color: #3f2c05;
+    width: 40%;
+    align-self: center;
+}
+
+.parrafooter img{
+    width: 20%;
+}
+
+
 
 
 @media only screen and (max-width: 600px) {
@@ -50,7 +64,24 @@
     .footer .fa-copyright {
         font-size: 80%;
         margin: 10px;
+        align-self: flex-end;
     }
+
+    .parrafooter{
+        text-align: center;
+        font-size: 150%;
+        font-family: "Anaktoria";
+        color: #3f2c05;
+        width: 40%;
+
+    }
+    
+    .parrafooter img{
+        width: 20%;
+        
+
+    }
+    
 }
 
 @media only screen and (min-width: 600px) {
@@ -76,7 +107,23 @@
         font-size: 80%;
         margin: 10px;
         margin-top: 30%;
+        align-self: flex-end;
     }
+    .parrafooter{
+        text-align: center;
+        font-size: 150%;
+        font-family: "Anaktoria";
+        color: #3f2c05;
+        width: 40%;
+
+    }
+    
+    .parrafooter img{
+        width: 20%;
+        
+
+    }
+    
 }
 
 @media only screen and (min-width: 768px) {
@@ -110,7 +157,7 @@
     .footer {
         display: flex;
         align-items: flex-start;
-        justify-content: space-around;
+        justify-content: center;
         flex-direction: row;
         padding-top: 40px;
     }
@@ -129,6 +176,17 @@
         font-size: 80%;
         margin: 10px;
         align-self: flex-end;
+    }
+    .parrafooter{
+        width: 40%;
+        text-align: center;
+        font-size: 150%;
+        font-family: "Anaktoria";
+        color: #3f2c05;
+    }
+    
+    .parrafooter img{
+        width: 20%;
     }
     
 }
