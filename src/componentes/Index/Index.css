@@ -6,16 +6,16 @@
     justify-content: center;
     flex-direction: column; }
     .header_container .header_slogan {
-      font-family: "Anaktoria", sans-serif;
+      font-family: 'AnaktoriaRegular';
       margin-bottom: 100px; }
   
   .article-container {
     display: flex; }
     .article-container .title-p-somos {
       margin: 60px;
-      font-family: "Anaktoria", sans-serif; }
+      font-family: 'AnaktoriaRegular'; }
     .article-container .title-parraf .title-p {
-      font-family: "Anaktoria", sans-serif; }
+      font-family: 'AnaktoriaRegular'; }
     .article-container .title-parraf .p-main-index {
       font-weight: bold; 
       color: rgba(90, 44, 0, 0.685);

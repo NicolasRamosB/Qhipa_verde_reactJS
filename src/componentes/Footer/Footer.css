@@ -29,7 +29,7 @@
 .parrafooter{
     text-align: center;
     font-size: 150%;
-    font-family: "Anaktoria";
+    font-family: 'AnaktoriaRegular';
     color: #3f2c05;
     width: 40%;
     align-self: center;
@@ -70,7 +70,7 @@
     .parrafooter{
         text-align: center;
         font-size: 150%;
-        font-family: "Anaktoria";
+        font-family: 'AnaktoriaRegular';
         color: #3f2c05;
         width: 40%;
 
@@ -112,7 +112,7 @@
     .parrafooter{
         text-align: center;
         font-size: 150%;
-        font-family: "Anaktoria";
+        font-family: 'AnaktoriaRegular';
         color: #3f2c05;
         width: 40%;
 
@@ -181,7 +181,7 @@
         width: 40%;
         text-align: center;
         font-size: 150%;
-        font-family: "Anaktoria";
+        font-family: 'AnaktoriaRegular';
         color: #3f2c05;
     }
     
